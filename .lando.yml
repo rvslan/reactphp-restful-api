@@ -1,0 +1,9 @@
+name: reactphp
+services:
+  myservice:
+    type: mysql:5.7
+    portforward: 3306
+    creds:
+      user: mysql
+      password: mysql
+      database: database
